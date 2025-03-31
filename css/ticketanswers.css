@@ -1,0 +1,53 @@
+/*
+  -------------------------------------------------------------------------
+  Ticket Answers
+  Copyright (C) 2023 by Jeferson Penna Alves
+  -------------------------------------------------------------------------
+  LICENSE
+  This file is part of Ticket Answers.
+  Ticket Answers is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+  Ticket Answers is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  You should have received a copy of the GNU General Public License
+  along with Ticket Answers. If not, see <http://www.gnu.org/licenses/>.
+  --------------------------------------------------------------------------
+*/
+
+@keyframes bell-ring {
+  0% { transform: rotate(0); }
+  10% { transform: rotate(10deg); }
+  20% { transform: rotate(-10deg); }
+  30% { transform: rotate(10deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}
+
+.notification-bell i.has-notifications {
+  color: #ff0000 !important;
+  animation: bell-ring 2s infinite;
+}
+
+.notification-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-bell {
+  position: relative;
+}
