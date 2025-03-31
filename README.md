@@ -31,7 +31,7 @@ O Plugin Ticket Answers para GLPI foi desenvolvido para otimizar o gerenciamento
 ## **Instalação**
 
 1.  **Download/Clone:** Baixe ou clone este repositório para a pasta `plugins` na raiz do seu GLPI.
-2.  **Nome da Pasta:** Certifique-se de que a pasta do plugin esteja nomeada como `ticketanswers`.
+2.  **Nome da Pasta:** Certifique-se de que a pasta do plugin esteja nomeada como **`ticketanswers`**.
 3.  **Painel Administrativo do GLPI:** Acesse o painel administrativo do GLPI.
 4.  **Configuração de Plugins:** Navegue até `Configurar > Plugins`.
 5.  **Instalação:** Localize o plugin Ticket Answers e clique em "Instalar".
