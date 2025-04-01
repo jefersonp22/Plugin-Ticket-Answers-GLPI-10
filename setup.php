@@ -32,7 +32,7 @@ function plugin_version_ticketanswers() {
         'license'        => 'GPLv2+',
         'homepage'       => '',
         'minGlpiVersion' => '10.0.0',
-        'maxGlpiVersion' => '10.0.17'
+        'maxGlpiVersion' => '10.0.18'
     );
 }
 
@@ -75,8 +75,8 @@ function plugin_ticketanswers_check_config() {
  */
 function plugin_ticketanswers_check_prerequisites() {
     // Verifica se a versão do GLPI é compatível
-    if (version_compare(GLPI_VERSION, '10.0.0', 'lt') || version_compare(GLPI_VERSION, '10.0.17', 'gt')) {
-        echo "Este plugin requer GLPI >= 10.0.0 e GLPI <= 10.0.17";
+    if (version_compare(GLPI_VERSION, '10.0.0', 'lt') || version_compare(GLPI_VERSION, '10.0.18', 'gt')) {
+        echo "Este plugin requer GLPI >= 10.0.0 e GLPI <= 10.0.18";
         return false;
     }
     return true;
